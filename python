@@ -1,11 +1,11 @@
 import cv2
 
-# Load the pre-trained Haar cascade classifier for human detection
+# Load the pre-trained Haar cascade classifier for human detection.
 detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_upperbody.xml')
 # Read the input image
 img = cv2.imread('image.jpg')
 
-# Convert the image to grayscale
+# Convert the image to grayscale3
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Detect human(s) in the image
