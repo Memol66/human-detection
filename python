@@ -1,6 +1,7 @@
+# .00000000000000000000
 import cv2
 
-# Load the pre-trained Haar cascade classifier for human detection.00000000000000000000
+# Load the pre-trained Haar cascade classifier for human detection
 detector = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_upperbody.xml')
 # Read the input image
 img = cv2.imread('image.jpg')
